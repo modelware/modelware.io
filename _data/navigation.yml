@@ -1,0 +1,13 @@
+# Name should not exceed 20 character
+- name: Documentation
+  link: /documentation
+- name: Blog
+  link: /blog
+- name: Papers
+  link: /paper
+- name: Contributors
+  link: /contributor
+- name: Download
+  link: /download
+- name: GitHub
+  link: https://github.com/opencaesar

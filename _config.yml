@@ -1,0 +1,28 @@
+# Site settings
+title: Modelware
+author: Maged Elaasar 
+description: Enabling Integrated Model Centric Engineering
+
+# Site Url Settings
+baseurl: ""
+
+# Blog settings
+paginate: 12
+paginate_path: "/blog/page:num/"
+blog_path: "/blog"
+
+# Paper settings
+collections:
+  papers:
+    output: true
+  contributors:
+    output: true
+
+
+
+# Build settings
+sass:
+    sass_dir: _sass
+plugins: [jekyll-paginate] 
+
+
