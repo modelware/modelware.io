@@ -1,13 +1,13 @@
 # Name should not exceed 20 character
-- name: Documentation
-  link: /documentation
+- name: Products
+  link: /products
+- name: Services
+  link: /services
+- name: Papers
+  link: /papers
 - name: Blog
   link: /blog
-- name: Papers
-  link: /paper
-- name: Contributors
-  link: /contributor
-- name: Download
-  link: /download
+- name: Team
+  link: /team
 - name: GitHub
-  link: https://github.com/opencaesar
+  link: https://github.com/modelware

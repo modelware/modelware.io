@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Contributors
-navlink: /contributor
+title: Team
+navlink: /team
 ---
 
 <!--Contributor Section-->
@@ -37,28 +37,5 @@ navlink: /contributor
     </div>
     <!---->
 
-    <!--Partner list-->
-    <div class="row mt-5 mb-4">
-        <div class="col">
-            <p class="title-oc">Organizations</p>
-        </div>
-    </div>
-
-    <div class="row pl-1 pb-3 mb-5">
-        {% for item in site.data.partner %}
-        <div class="col-sm-12 col-lg-4 pt-4 px-2">
-            <div class="card">
-                <div>
-                    <img src="{{item.imageName| prepend: 'assets/img/' | relative_url}}" class="card-img-top" style="border-bottom: solid 1px;">
-                </div>
-                <div class="card-body">
-                    <p class="card-title">{{item.name}}</p>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-
-    <!---->
 </div>
 <!---->
